@@ -1,0 +1,17 @@
+<% 
+var data = jsonData;
+%>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title><%= data.name %></title>
+</head>
+<body>
+<%= data.id %>ページだよ。<br>
+<% for(var i = 0; i < data.content.length; i++) { %>
+  <%= data.content[i].title %> <br>
+  <%= data.content[i].text %>
+<% } %>
+</body>
+</html>
