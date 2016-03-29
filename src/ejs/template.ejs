@@ -1,5 +1,8 @@
 <% 
 var data = jsonData;
+var common = commonData;
+console.log(data);
+console.log(common);
 %><!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -12,5 +15,8 @@ var data = jsonData;
   <%= data.content[i].title %> <br>
   <%= data.content[i].text %> <br>
 <% } %>
+ここからは共有だよ。<br>
+<%= common.copyright %> <br>
+<%= common.company %> <br>
 </body>
 </html>
