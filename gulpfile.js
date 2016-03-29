@@ -10,7 +10,6 @@ gulp.task('json-html', function() {
     var json = JSON.parse(fs.readFileSync(json_file)); // JSONの読み込み
     var pages = json.pages;
     var common = json.common;
-    console.log(common);
 
     for (var i = 0; i < pages.length; i++) { // ページの数だけループ
         var id = pages[i].id;
