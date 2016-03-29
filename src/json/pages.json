@@ -34,5 +34,9 @@
         }
       ]
     }
-  ]
+  ],
+  "common": {
+      "copyright": "© 2016 hoge Inc.",
+      "company": "hoge Inc."
+    } 
 }
